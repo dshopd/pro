@@ -1,0 +1,12 @@
+doctype html
+html(lang="en")
+	- var title = 'Main | Company name';
+	include ../layout/head.pug
+	
+	body
+		include ../layout/header.pug 
+		include ../mixins/mixins.pug
+		section
+			.container
+				p Section
+		include ../layout/footer.pug

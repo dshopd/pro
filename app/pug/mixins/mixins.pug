@@ -1,0 +1,7 @@
+mixin input(text, name, placeholder,  value, required)
+	.input_item
+		label #{text}
+		if	required
+			input(type="text",name="" +name, placeholder="" +placeholder,  value="" +value, required)
+		else
+			input(type="text",name="" +name, placeholder="" +placeholder,  value="" +value, )

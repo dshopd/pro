@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113 59">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #d4af37;
+      }
+
+      .cls-2, .cls-4 {
+        font-size: 20px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        font-family: Ebrima;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #42cc42;
+      }
+
+      .cls-3 {
+        font-size: 14px;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_2_1" data-name="Symbol 2 – 1" transform="translate(-214 -99)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="91" height="35" transform="translate(214 103)"/>
+    <text id="Julian" class="cls-2" transform="translate(232 134)"><tspan x="0" y="0">Julian</tspan></text>
+    <text id="web_developer" data-name="web developer" class="cls-3" transform="translate(217 154)"><tspan x="0" y="0">web developer</tspan></text>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="91" height="35" transform="translate(217 99)"/>
+    <text id="Julian-2" data-name="Julian" class="cls-4" transform="translate(235 124)"><tspan x="0" y="0">Julian</tspan></text>
+    <g id="Symbol_1_1" data-name="Symbol 1 – 1">
+      <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-5" width="15" height="30" transform="translate(312 99)"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-1" width="15" height="30" transform="translate(312 128)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,209 @@
+html,
+body
+	font-size: 16px
+	+xxl
+		// font-size: 15px
+	+xl
+		// font-size: 14px
+	+lg
+		// font-size: 12px
+	+md
+		// font-size: 11px
+	+sm
+
+
+body
+	min-width: 320px
+	position: relative
+	font-family: $def_font
+	line-height: 1.65
+	overflow-x: hidden
+	-webkit-font-smoothing: antialiased
+	&.no_scroll
+		overflow: hidden
+
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $c1
+	color: #fff
+
+
+ul
+	margin: 0
+	padding: 0
+	list-style-type: none
+
+
+a
+	transition: all .3s ease
+	&:hover
+		text-decoration: none
+	&:focus
+		text-decoration: none
+		outline: none
+
+
+img
+	width: auto
+	max-width: 100%
+	height: auto
+
+
+
+// Default btn
+.btn
+	position: relative
+	display: inline-block
+	font-size: 13px
+	font-weight: 600
+	text-transform: uppercase
+	border-radius: 4px
+	color: #fff
+	text-align: center
+	text-decoration: none
+	padding: 13px 38px 11px
+	background-color: $c1
+	border: none
+	outline: none
+	transition: all .3s ease
+	&:focus:not(.disabled),
+	&:hover:not(.disabled)
+		text-decoration: none
+	&:focus:not(.disabled)
+		outline: none
+	&:hover:not(.disabled)
+		cursor: pointer
+		color: #fff
+		background-color: lighten($c1, 10%)
+	&:active:not(.disabled)
+		background-color: darken($c1, 5%)
+
+	&.disabled
+		opacity: .4
+		
+	-ms-user-select: none
+	-moz-user-select: none
+	-khtml-user-select: none
+	-webkit-user-select: none
+
+
+
+// Text align
+.t_center
+	text-align: center
+
+.t_left
+	text-align: left
+
+.t_right
+	text-align: right
+
+
+
+// Flex group & align
+.group
+	display: flex
+	
+.fx_wrap
+	flex-wrap: wrap
+
+.ai_start
+	align-items: flex-start
+
+.ai_center
+	align-items: center
+
+.ai_end
+	align-items: flex-end
+
+.jc_start
+	justify-content: flex-start
+
+.jc_between
+	justify-content: space-between
+
+.jc_center
+	justify-content: center
+
+.jc_end
+	justify-content: flex-end
+
+.fd_col
+	flex-direction: column
+
+
+
+
+
+// Menu
+#menu
+	ul
+		display: flex
+		align-items: center
+		li
+			&:last-child
+				margin-right: 0
+			a
+
+
+
+// Popup
+.mfp_default
+	position: relative
+	max-width: 470px
+	min-height: 300px
+	text-align: left
+	padding: 80px 70px 50px
+	margin: 40px auto
+	background: #fff
+	
+	.mfp-close
+		top: 30px
+		right: 30px
+		width: 24px
+		height: 24px
+		opacity: 1
+		// background: url(../img/close.svg) no-repeat center center
+		// background-size: 100% 100%
+		transition: opacity .3s ease
+		&:hover
+			opacity: .8
+		&:focus
+			outline: none
+		&:active
+			transform: translateY(1px)
+		
+
+	.form_result
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		display: flex
+		align-items: center
+		justify-content: center
+		text-align: center
+		background: #fff
+		opacity: 0
+		padding: 50px
+		visibility: hidden
+		transition: all .3s ease
+		z-index: 1
+		&.success
+			opacity: 1
+			visibility: visible
+
+		.mess
+			&_title
+				font-size: 30px
+				letter-spacing: 2px
+				font-weight: 600
+				text-transform: uppercase
+
+			&_desc
+				font-size: 18px
+				line-height: 24px

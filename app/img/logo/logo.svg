@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 44">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+      }
+
+      .cls-2 {
+        fill: #fff23d;
+        font-size: 12px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Calibri;
+      }
+
+      .cls-3 {
+        fill: #309e0a;
+        font-size: 10px;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_2_1" data-name="Symbol 2 – 1" transform="translate(-150 -176)">
+    <g id="Symbol_1_1" data-name="Symbol 1 – 1">
+      <g id="Ellipse_1" data-name="Ellipse 1" class="cls-1" transform="translate(160 176)">
+        <ellipse class="cls-4" cx="16.5" cy="15.5" rx="16.5" ry="15.5"/>
+        <ellipse class="cls-5" cx="16.5" cy="15.5" rx="16" ry="15"/>
+      </g>
+      <text id="Julian" class="cls-2" transform="translate(163 195)"><tspan x="0" y="0">Julian</tspan></text>
+    </g>
+    <text id="web_developer" data-name="web developer" class="cls-3" transform="translate(150 217)"><tspan x="0" y="0">web developer</tspan></text>
+  </g>
+</svg>
