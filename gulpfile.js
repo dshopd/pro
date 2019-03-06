@@ -9,6 +9,7 @@ var gulp           = require('gulp'),
 		notify         = require("gulp-notify"),
 		sourcemaps 		 = require('gulp-sourcemaps'),
 		// Pug
+		pugbem 			= require('gulp-pugbem'),
 		plumber 			 = require('gulp-plumber'),
 		pug 					 = require('gulp-pug');
 
@@ -76,7 +77,9 @@ gulp.task('sass_libs', function() {
 gulp.task('pug', function() {
 	return gulp.src('app/pug/pages/*.pug')
 		.pipe(plumber())
-		.pipe(pug({pretty: true}))
+		.pipe(pug({pretty: true, plugins: [pugbem]}))
+		// .pipe(pug({ plugins: [pugbem]}))
+		// .pipe(pug({pretty: true}))
 		.pipe(gulp.dest('app/'))
 		.pipe(browsersync.stream());
 });
